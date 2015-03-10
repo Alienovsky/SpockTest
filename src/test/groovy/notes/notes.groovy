@@ -1,3 +1,4 @@
+package notes
 
 class notes {
     //https://code.google.com/p/spock/wiki/SpockBasics
