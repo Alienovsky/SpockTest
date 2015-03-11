@@ -1,8 +1,5 @@
 package mocking
 
-/**
- * Created by Alien on 2015-03-11.
- */
 class DBService {
     Dao dao;
 
@@ -17,5 +14,12 @@ class DBService {
         isData = dao.retrieveIsData();
         return isData;
     }
+
+    String getAllDataAsString(){
+        Integer id = dao.retrieveId();
+        Boolean isData= dao.retrieveIsData();
+        return id.toString() + " " + isData;
+    }
+
 
 }
