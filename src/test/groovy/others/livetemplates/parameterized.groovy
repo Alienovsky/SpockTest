@@ -1,4 +1,4 @@
-package livetemplates
+package others.livetemplates
 
 class parameterized {
     /*

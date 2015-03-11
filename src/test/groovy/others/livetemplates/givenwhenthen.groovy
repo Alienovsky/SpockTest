@@ -1,4 +1,4 @@
-package livetemplates
+package others.livetemplates
 
 /**
  * Created by Alien on 2015-03-11.
